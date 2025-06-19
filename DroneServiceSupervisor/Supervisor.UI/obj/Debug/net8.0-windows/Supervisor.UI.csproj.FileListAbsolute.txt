@@ -1,0 +1,4 @@
+C:\Users\mikid\Downloads\DroneServiceSupervisor\Supervisor.UI\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\mikid\Downloads\DroneServiceSupervisor\Supervisor.UI\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mikid\Downloads\DroneServiceSupervisor\Supervisor.UI\obj\Debug\net8.0-windows\Supervisor.UI_MarkupCompile.cache
+C:\Users\mikid\Downloads\DroneServiceSupervisor\Supervisor.UI\obj\Debug\net8.0-windows\Supervisor.UI_MarkupCompile.lref

@@ -1,0 +1,18 @@
+<Window x:Class="Supervisor.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Supervisor.UI.ViewModels"
+        Title="Service Status Monitor" Height="350" Width="600">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <DataGrid ItemsSource="{Binding Services}" AutoGenerateColumns="False" IsReadOnly="True" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Service" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="LastUpdated" Binding="{Binding LastUpdated}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

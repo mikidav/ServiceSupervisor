@@ -1,0 +1,4 @@
+C:\Users\mikid\Downloads\DroneServiceSupervisor\obj\Debug\net8.0\DroneServiceSupervisor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikid\Downloads\DroneServiceSupervisor\obj\Debug\net8.0\DroneServiceSupervisor.AssemblyInfoInputs.cache
+C:\Users\mikid\Downloads\DroneServiceSupervisor\obj\Debug\net8.0\DroneServiceSupervisor.AssemblyInfo.cs
+C:\Users\mikid\Downloads\DroneServiceSupervisor\obj\Debug\net8.0\DroneServiceSupervisor.csproj.CoreCompileInputs.cache

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "TelemetryService",
+    "Path": "Services/TelemetryService.exe",
+    "Args": "",
+    "HealthType": "UDP",
+    "RestartOnFail": true,
+    "StartupDelay": 0
+  },
+  {
+    "Name": "MissionPlanner",
+    "Path": "Services/MissionPlanner.exe",
+    "Args": "",
+    "HealthType": "HTTP",
+    "HealthUrl": "http://localhost:5080/healthz",
+    "RestartOnFail": true,
+    "StartupDelay": 2000
+  }
+]
